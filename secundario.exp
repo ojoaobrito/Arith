@@ -1,14 +1,8 @@
-# Compilador da linguagem Arith para Assembly MIPS
+# ficheiro de teste para Arithc 2.0
 
-## Funcionalidades incluídas
+set x = 3; # declaracao de variaveis
 
-**Declaração de variáveis**
-> **(formalmente)** set nome_variavel = valor;\
-**(exemplo)** set x = 3;
-
-**Atribuição de valores a variáveis**
-> **(formalmente)** nome_variavel = valor;\
-**(exemplo)** x = 4;
+x = 4; # atribuicao de valores a variaveis
 
 print x; # impressao no stdout
 
