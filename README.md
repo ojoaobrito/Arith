@@ -10,9 +10,9 @@ x = 4;
 print x;
 
 **Basic arithmetic:**\
-x = 2 + 2;
-x = 1 - 5;
-x = 2 * 0;
+x = 2 + 2;\
+x = 1 - 5;\
+x = 2 * 0;\
 x = 3 / 3;
 
 **Conditional statement:**\
