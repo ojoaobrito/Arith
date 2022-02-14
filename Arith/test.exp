@@ -1,0 +1,19 @@
+
+set x = 3;
+
+x = 4;
+
+print x;
+
+x = 2 + 2;
+
+if x<3 then (print x;) else (pass;)
+
+while x<6 do (x = x + 1;)
+
+print x;
+
+if true then (if true then (print 3;) else (pass;)) else (pass;)
+
+
+

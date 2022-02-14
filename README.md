@@ -1,28 +1,25 @@
-# Arith - Assembly MIPS Compiler 
+# Compilador da linguagem Arith para Assembly MIPS
 
-**Variable declaration:**\
-set x = 3;
+## Funcionalidades incluídas
 
-**Variable attribution:**\
-x = 4;
+**Declaração de variáveis**
+> **(formalmente)** set nome_variavel = valor;\
+**(exemplo)** set x = 3;
 
-**Print instruction:**\
-print x;
+**Atribuição de valores a variáveis**
+> **(formalmente)** nome_variavel = valor;\
+**(exemplo)** x = 4;
 
-**Basic arithmetic:**\
-x = 2 + 2;\
-x = 1 - 5;\
-x = 2 * 0;\
-x = 3 / 3;
+print x; # impressao no stdout
 
-**Conditional statement:**\
-if x>4 then (print x;) else (pass;)
+x = 2 + 2; # operacoes de soma, subtracao, multiplicacao e divisao
 
-**Nested conditional statement:**\
-if true then (if true then (print 3;) else (pass;)) else (pass;)
+if x>4 then (print x;) else (pass;) # construcao if-else
 
-**While loop:**\
 while x<6 do (x = x + 1;) # ciclo while
 
-**Comments:**\
-\# this is a comment
+print x; # deve imprimir o valor 6
+
+if true then (if true then (print 3;) else (pass;)) else (pass;) # construcoes if-else aninhadas
+
+if !4<3 then (print 20;) else (pass;) # deve imprimir 20

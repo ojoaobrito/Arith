@@ -1,7 +1,0 @@
-set x = 5;
-
-if x<3 then (print x;) else (pass;)
-
-while x<6 do (x = x + 1;)
-
-print x;
