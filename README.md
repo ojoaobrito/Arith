@@ -1,4 +1,5 @@
 # Compilador da linguagem Arith para Assembly MIPS
+*More details at www.joaopedrobrito.com/projects/cloud_it.*
 
 ## Funcionalidades incluídas
 
